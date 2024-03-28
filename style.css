@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(231,238,239);
+    background: linear-gradient(140deg, rgb(235, 243, 245) 0%, rgb(250, 233, 194) 100%);
+    font-family:fantasy;
+
+}
+
+.container{
+    background-color:rgb(255, 252, 245);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    padding: 100px;
+    border-radius: 10px;
+    width: auto;
+}
+
+.heading{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.input {
+    border-radius: 5px;
+    border: solid 1px;
+    height: 35px;
+    width:  90%;
+    text-align: left;
+    margin-bottom: 10px;
+    color: #484235
+    
+}
