@@ -3,10 +3,18 @@ const inputEl = document.getElementById("input");
 
 
 async function fetchAPI(word){
-    const url = `https://api.dictionaryapi.dev/api/v2/entries/en/${word}`;
 
-    const result = await fetch(url).then((res) => 
-    res.json());
+    try {
+        const url = `https://api.dictionaryapi.dev/api/v2/entries/en/${word}`;
+
+        const result = await fetch(url).then((res) => 
+        res.json());
+        
+    } catch (error) {
+        
+    }
+    
+
 
 
 }
